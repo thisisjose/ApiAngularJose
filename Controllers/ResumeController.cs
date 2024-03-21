@@ -42,18 +42,20 @@ public class ResumeController : ControllerBase
 
         await _resumeServices.InsertResume(resume);
 
-        return Created("Created", true);
+        return Ok(new { mesage = "Se ha agregado correctamente" });
     }
 
     ///Actualizar Sensor
     [HttpPut("{Id}")]
-    public async Task<IActionResult> UpdateProyecto([FromBody] Resume resume, string Id)
+    public async Task<IActionResult> UpdateProyeto([FromBody] Resume resume, string Id)
     {
         if (resume == null)
             return BadRequest();
 
-        await _resumeServices.InsertResume(resume);
-        return Created("Created", true);
+        resume.Id = Id;
+
+        await _resumeServices.UpdateResume(resume);
+        return Ok(new { mesage = "Se ha actualizado correctamente"});
     }
 
 }
