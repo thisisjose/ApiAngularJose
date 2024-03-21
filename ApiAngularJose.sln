@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAngularJose", "ApiAngularJose.csproj", "{B103D990-A661-4689-9375-B1BA53400FED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B103D990-A661-4689-9375-B1BA53400FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B103D990-A661-4689-9375-B1BA53400FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B103D990-A661-4689-9375-B1BA53400FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B103D990-A661-4689-9375-B1BA53400FED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2129242D-C5B7-489D-A4C3-6B8B0ED3EF0F}
+	EndGlobalSection
+EndGlobal
